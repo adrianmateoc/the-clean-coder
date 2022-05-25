@@ -27,3 +27,11 @@ How should someone learn software?
 
 All of this is idealized and hypothetical. The reality is that most companies do not provide technical supervision and that is a problem since it is the most important thing.
 
+**CRAFTSMANSHIP**
+
+An artisan is a professional and craftsmanship is the mentality of a professional. Being a craftsman is transmitted from one person to another.
+
+- CONVINCING PEOPLE
+
+You can't convince people to be craftsmen. To do it you have to be observable. You must act as a role model. You become a craftsman first, and let your
+craftsmanship show. Then just let the meme do the rest of the work.
