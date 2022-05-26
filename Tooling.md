@@ -30,11 +30,22 @@ set-up time is not insignificant. These tools are not lightweight. They take a l
 
 **ISSUE TRACKING**
 
-- BUG COUNTS
+There are some of them, like Pivotal Tracker, which is simple to use and fits nicely with the Agile/iterative approach. For small project you can use Lighthouse, which is quick and easy to use. 
+You can just use a wiki. Wikis are easy to understand and use and you're not forced into a certain process or a rigid structure.
+Before use one of them you can start with a manual system, like a bulletin board.
+
+- BUG COUNTS: This type of issue tracking systems should be for no more than 100 problems, the moment you have a thousand problems they become a dump of problems.
 
 **CONTINUOUS BUILD**
 
+An example of these systems is Jenkins. You should hook it up to your source code control system and whenever anybody checks in code, it should automatically
+build and then report status to the team.
+
 **UNIT TESTING TOOLS**
+
+Each language has it’s own particular unit testing tool. For example: JUnit, NUnit, RSPEC, etc...
+
+A unit testing tool should support these features:
 
 1. It should be quick and easy to run the tests.
 2. The tool should give you a clear visual pass/fail indication.
@@ -45,13 +56,20 @@ each other.
 
 **COMPONENT TESTING TOOLS**
 
-- THE DEFINITION OF DONE
-- FITNESSE
-- OTHER TOOLS
+These tools are for testing components at the API level. Their role is to make sure that the behavior of a component is specified in a language that the business and QA people can understand.
+
+- THE DEFINITION OF DONE: Using this tool we can indicate or not if a job is done or not. That's what it means to pass or not the tests.
+- FITNESSE: FitNesse is a wiki-based system that allows business analysts and QA specialists to write tests in a very simple tabular format.
+- OTHER TOOLS: There are others like RobotFX, Green Pepper, Cucumber or JBehave. They are all similar but with some differences.
 
 **INTEGRATION TESTING TOOLS**
 
+Component testing tools can also be used for many integration tests, but are less than appropriate for tests that are driven through the UI. In general, we don’t want to drive very many tests through the UI because UIs are notoriously volatile. Some examples of UI testing tools are Selenium and Watir. They are very important tools to define the structure of the code, but they are not everything. The code for a complete program is also needed.
+
 **UML/MDA**
 
-- THE DETAILS
-- NO HOPE, NO CHANGE
+They are very important tools to define the structure of the code, but they are not everything. The code for a complete program is also needed.
+
+- THE DETAILS: Programmers are detail managers. We specify the behavior of systems in the minutest detail and it can't be done with a UML system.
+- NO HOPE, NO CHANGE: The hope that diagram systems will replace code is an unreachable dream. As much as the diagrams are a tiny abstract form of code, it is still code, since these diagrams have their own coding, and coding requires programmers. Then these diagrams are nothing more than a new image of coding.
+
